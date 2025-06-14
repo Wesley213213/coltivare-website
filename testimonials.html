@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <title>Customer Testimonials | Coltivare</title>
   <style>
-    :root {
-      --green: #3e5e3e;
-      --tan:   #f7f9f4;
+    :root{
+      --green:#3e5e3e;
+      --tan:#f7f9f4;
       --accent:#c75c00;
       --deepgreen:#2c452c;
     }
@@ -18,11 +18,11 @@
       color:var(--green);
     }
 
-    /* ===== HERO (IMAGE + TITLE) ===== */
+    /* ===== HERO IMAGE + TITLE ===== */
     .hero{
       position:relative;
       height:320px;
-      background-image:url('https://images.unsplash.com/photo-1591886171392-eec6c9939c83?auto=format&fit=crop&w=1600&q=80');
+      background-image:url('farming.jpg'); /* ← your uploaded image  */
       background-position:center;
       background-size:cover;
       background-repeat:no-repeat;
@@ -33,14 +33,14 @@
       color:#fff;
     }
     .hero h1{
-      font-family:Georgia, serif;
+      font-family:Georgia,serif;
       font-size:2.5rem;
       background:rgba(0,0,0,.55);
       padding:15px 30px;
       border-radius:10px;
     }
 
-    /* ===== TWO-COLUMN INTRO SPLIT ===== */
+    /* ===== INTRO SPLIT ===== */
     .section-intro{
       display:flex;
       flex-wrap:wrap;
@@ -59,7 +59,7 @@
       text-align:center;
       margin:60px 0 20px;
       font-size:1.8rem;
-      font-family:Georgia, serif;
+      font-family:Georgia,serif;
       text-decoration:underline;
       color:var(--green);
     }
@@ -87,9 +87,11 @@
     .highlight{color:var(--accent);font-weight:bold;}
     .author{font-style:italic;font-size:.9rem;}
 
-    /* ===== LISTS & FOOTER ===== */
+    /* ===== LISTS ===== */
     .extras{text-align:center;max-width:700px;margin:40px auto 20px;}
     ol,ul{display:inline-block;text-align:left;margin-bottom:20px;}
+
+    /* ===== FOOTER ===== */
     .footer{text-align:center;margin:40px 0;font-size:.9rem;}
     a{color:var(--accent);}
     a:hover{text-decoration:none;}
@@ -97,12 +99,12 @@
 </head>
 <body>
 
-  <!-- HERO IMAGE + TITLE -->
+  <!-- Hero section -->
   <section class="hero">
     <h1>What Our Customers Say</h1>
   </section>
 
-  <!-- INTRO SPLIT -->
+  <!-- Intro Split -->
   <section class="section-intro">
     <div class="intro-block">
       <h2><u>Accelerating value to the farm</u></h2>
@@ -113,7 +115,7 @@
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
+  <!-- Testimonials -->
   <h2 class="section-title">Testimonials</h2>
   <div class="wrapper">
     <div class="card">
@@ -134,7 +136,7 @@
     </div>
   </div>
 
-  <!-- LISTS -->
+  <!-- Lists -->
   <div class="extras">
     <h3>Why farmers love us:</h3>
     <ol>
@@ -152,9 +154,9 @@
     </ul>
   </div>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <div class="footer">
-    Visit our partners at
+    Visit our partner:
     <a href="https://www.johnnyseeds.com" target="_blank">Johnny's Selected Seeds</a><br><br>
 
     <a href="mailto:fakeemail@purdue.edu">Contact me</a> if you have questions!<br><br>
