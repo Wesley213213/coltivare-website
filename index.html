@@ -2,93 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Coltivare – Team 11 Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testimonials | Coltivare</title>
   <style>
-    /* ---------- Global styles ---------- */
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f4f9f4;
-      color: #2e5c2e;
-      text-align: center;
+      margin: 0;
+      background-color: #f5f9ed;
+      color: #2d4926;
     }
-    a { color: #245c24; text-decoration: none; }
-    a:hover { text-decoration: underline; }
 
-    /* ---------- Header banner ---------- */
-    .banner {
-      background-image: url("farmeve.jpg");      /* use your hero image here */
+    .testimonial-header {
+      position: relative;
+      color: white;
+      padding: 50px 20px 30px;
+      background-image: url('grassfarm.jpg');
       background-size: cover;
       background-position: center;
-      padding: 90px 10px;
-      color: white;
-    }
-    .banner h1 { font-size: 3rem; margin: 0; }
-    .banner h2 { font-size: 1.6rem; margin: 8px 0 0; }
-
-    /* ---------- Intro section ---------- */
-    .intro {
-      max-width: 800px;
-      margin: 40px auto 20px;
-      line-height: 1.5;
-      font-size: 1.1rem;
+      text-align: left;
     }
 
-    /* ---------- Nav bar ---------- */
-    nav {
-      background: #e6f2e6;
-      padding: 12px 0;
-      box-shadow: 0 2px 4px rgba(0,0,0,.06);
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
+    .testimonial-header h1 {
       margin: 0;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
+      font-size: 36px;
       font-weight: bold;
     }
 
-    /* ---------- Footer ---------- */
-    footer {
-      margin: 40px 0 20px;
-      font-size: 0.9rem;
+    .subtext {
+      margin-top: 10px;
       font-style: italic;
+      font-size: 15px;
+      color: #2d4926;
+      text-align: center;
+      padding: 10px 30px;
+      background-color: #f5f9ed;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      color: #2d4926;
+      text-decoration: underline;
+    }
+
+    .testimonial-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px 40px;
+      background-image: url('grassfarm.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .testimonial {
+      background-color: white;
+      border: 1px solid #2d4926;
+      border-radius: 6px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      max-width: 300px;
+      font-style: italic;
+      color: #2d4926;
+    }
+
+    .testimonial strong {
+      color: #d54c00;
+      font-style: normal;
+    }
+
+    .testimonial em {
+      display: block;
+      margin-top: 10px;
+    }
+
+    .bottom-content {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      margin-top: 40px;
+      padding: 20px;
+    }
+
+    .bottom-content ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .bottom-content h3 {
+      color: #2d4926;
+    }
+
+    footer {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 14px;
+    }
+
+    a {
+      color: #d54c00;
     }
   </style>
 </head>
 <body>
 
-  <!-- Hero banner -->
-  <div class="banner">
-    <h1>Coltivare</h1>
-    <h2>Team 11 · Purdue University</h2>
+  <div class="testimonial-header">
+    <h1>What Our Customers Say</h1>
   </div>
 
-  <!-- Navigation bar -->
-  <nav>
-    <ul>
-      <li><a href="index.html" target="_top">Home</a></li>
-      <li><a href="story.html"        target="_top">Story &amp; History</a></li>
-      <li><a href="management.html"   target="_top">Management Team</a></li>
-      <li><a href="products.html"     target="_top">Products</a></li>
-      <li><a href="services.html"     target="_top">Services</a></li>
-      <li><a href="testimonials.html" target="_top">Testimonials</a></li>
-    </ul>
-  </nav>
+  <div class="subtext">See how real growers are thriving with Coltivare’s support and products.</div>
 
-  <!-- Intro / overview -->
-  <div class="intro">
-    <p><strong>Coltivare</strong> empowers growers with innovative, sustainable agricultural solutions that boost yields, protect natural resources, and support thriving rural communities.</p>
+  <h2>Testimonials</h2>
 
-    <p>This website gives you a complete tour of our company, including our history, leadership, product line, service offerings, and real-world success stories from producers who trust Coltivare.</p>
+  <div class="testimonial-grid">
+    <div class="testimonial">
+      <strong>Coltivare’s fertilizers</strong> boosted my soybean yields by 35%!<em>– Sarah M., Indiana Farmer</em>
+    </div>
+    <div class="testimonial">
+      <q>Their customer support is second to none. I felt like a partner, not just a customer.</q><em>– Luis R., Corn Grower</em>
+    </div>
+    <div class="testimonial">
+      <q>The drip-irrigation kit cut water use <strong>in half</strong> on my family farm.</q><em>– Jose A., Vegetable Producer</em>
+    </div>
+    <div class="testimonial">
+      <q><strong>Fast shipping</strong> and quality tools—exactly what a co-op needs.</q><em>– Emily K., Agri-Co-op Manager</em>
+    </div>
+    <div class="testimonial">
+      <q>Affordable and effective. Their team knows what farmers actually need.</q><em>– Robert J., Midwest Soy Producer</em>
+    </div>
+    <div class="testimonial">
+      <q>We’ve seen better crop performance and fewer issues since switching to Coltivare.</q><em>– Dana S., Organic Grower</em>
+    </div>
   </div>
 
-  <!-- Last-modified stamp -->
+  <div class="bottom-content">
+    <div>
+      <h3>Why farmers love us:</h3>
+      <ul>
+        <li>Personalized support</li>
+        <li>High-performance products</li>
+        <li>Fast and reliable shipping</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Types of customers we serve:</h3>
+      <ul>
+        <li>Family farms</li>
+        <li>Commercial growers</li>
+        <li>Agri-cooperatives</li>
+        <li>Hobby gardeners</li>
+      </ul>
+    </div>
+  </div>
+
   <footer>
-    Last modified:
-    <script>document.write(document.lastModified);</script>
+    <p>Visit our partner: <a href="#">Johnny's Selected Seeds</a></p>
+    <p><a href="#">Contact us</a> if you have questions!</p>
+    <p><a href="#">Download info sheet</a></p>
+    <p><em>Last modified: 06/15/2025 19:59:00</em></p>
   </footer>
 
 </body>
